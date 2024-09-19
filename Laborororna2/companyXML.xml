@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<companyXML>
+	<company>
+		<Apple>
+			<nameCompany>Apple</nameCompany>
+			<employees>2300000</employees>
+			<companyActivists>62bl.</companyActivists>
+			<salary>490k UAH</salary>
+		</Apple>
+		<Google>
+			<nameCompany>Google</nameCompany>
+			<employees>100000</employees>
+			<companyActivists>2.3 tril</companyActivists>
+			<salary>500k UAH</salary>
+		</Google>
+		<Microsoft>
+			<nameCompany>Microsoft</nameCompany>
+			<employees>185000</employees>
+			<companyActivists>443bl.</companyActivists>
+			<salary>600k UAH</salary>
+		</Microsoft>
+	</company>
+	</companyXML>
+</configuration>

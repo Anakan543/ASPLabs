@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Laborororna2.props" />
+</Project>
