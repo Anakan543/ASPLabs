@@ -1,0 +1,34 @@
+﻿{
+  "profiles": [
+    {
+      "id": 0,
+      "name": "John Doe",
+      "membership": "Premium"
+    },
+    {
+      "id": 1,
+      "name": "Jane Smith",
+      "membership": "Standard"
+    },
+    {
+      "id": 2,
+      "name": "Alice Brown",
+      "membership": "Premium"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "membership": "Standard"
+    },
+    {
+      "id": 4,
+      "name": "Eve Davis",
+      "membership": "Premium"
+    },
+    {
+      "id": 5,
+      "name": "Charlie Clark",
+      "membership": "Standard"
+    }
+  ]
+}
