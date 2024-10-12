@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>Реєстраці</h2>
+    <form method="post" class="form-user" asp-action="CountItem" asp-controller="User">
+        <label for="name">Введіть ваше ім'я</label>
+        <input type="text" name="name"required />
+        <label for="age">Вкажіть ваш вік</label>
+        <input type="number" name="age" required/>
+        <input type="submit"/>
+    </form>
+</div>

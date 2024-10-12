@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "CountItem";
+    var name = ViewData["nameUser"];
+    int age = 0;
+    if(ViewData["ageUser"] != null)
+    {
+        age = (int)ViewData["ageUser"];
+    };
+}
+@if(age > 16){
+    <h1>Вітаю, @name</h1>
+    <form method="post" class="form-user" asp-action="Forms" asp-controller="User">
+        <label>Укажіть кількість товару</label>
+        <input type="number" name="countItem" required/>
+        <input type="submit" value="Відправити"/>
+    </form>
+}
+else
+{
+    <h2>Вам менше 16, допобачення</h2>
+}

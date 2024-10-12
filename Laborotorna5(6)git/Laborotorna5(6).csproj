@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Laborotorna5_6_</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Shared\new_style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Новая папка\" />
+  </ItemGroup>
+
+</Project>

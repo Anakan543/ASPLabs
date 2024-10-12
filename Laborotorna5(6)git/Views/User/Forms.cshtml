@@ -1,0 +1,18 @@
+﻿
+@{
+    int count = 0;
+    if (ViewData["countItems"] != null)
+    {
+        count = (int)ViewData["countItems"];
+    };
+}
+@using Laborotorna5_6_.HtmlHelper
+@if(count > 0){
+    <h2>СПИСОК ПРОДУКТІВ</h2>
+    @Html.CreateForm(count)
+}
+else
+{
+    <h4>Вкажіть адекватну кількість продуктів</h4>
+}
+
