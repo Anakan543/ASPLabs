@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post" asp-controller="File" asp-action="DownloadFile">
+    <label for="firstName">Укажіть важе ім'я</label>
+    <input type="text" name="firstName" required />
+    <label for="secondName">Укажіть важе прізвище</label>
+    <input type="text" name="secondName" required />
+    <label for="fileName">Укажіть ім'я файлу</label>
+    <input type="text" name="fileName" required />
+    <input type="submit" value="Завантажити файл" />
+</form>
