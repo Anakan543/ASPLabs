@@ -1,0 +1,34 @@
+﻿@model List<ProductModel>
+<h1>Інфомрація про items</h1>
+
+<div class="ViewInfo">
+    <div class="FirstSide">
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>
+                    @item.ToString()
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="SecondSide">
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Created Date</td> 
+            </tr>
+            @foreach (var items in Model)
+            {
+                <tr>
+                    <td>@items.GetID()</td>
+                    <td>@items.GetName()</td>
+                    <td>@items.GetPrice()</td>
+                    <td>@items.GetData()</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
