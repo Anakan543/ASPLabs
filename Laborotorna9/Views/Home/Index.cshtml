@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <form method="post" asp-controller="User" asp-action="ShowProductTable">
+        <label for="submit">Прочитати інформацію</label>
+        <input type="submit" value="Далі" name="submit" />
+     </form>
+    <form method="post" asp-controller="User" asp-action="ShowClimateInfo">
+        <label>Вкажіть місто, інформацію про погоду в якому ви хочете дізнатися:</label>
+        <select name="choice_city">
+            <option value="kyiv">Kyiv</option>
+            <option value="mykolaiv">Mykolaiv</option>
+            <option value="odessa">Odessa, UA</option>
+            <option value="kharkiv">Kharkiv</option>
+            <option value="dnipro">Dnipro</option>
+            <option value="mariupol">Mariupol</option>
+        </select>
+        <input type="submit" value = "Відправити"/>
+     </form>
+</div>

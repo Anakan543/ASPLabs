@@ -1,0 +1,9 @@
+﻿@using Laborotorna9.Mapping
+@model WeatherResponse
+
+<h2>Погода в @Model.Name</h2>
+<p>Температура: @Model.Main.Temp°C</p>
+<p>Максимальна температура: @Model.Main.Temp_max°C</p>
+<p>Мінімальна температура: @Model.Main.Temp_min°C</p>
+<p>Відчувається як: @Model.Main.Feels_like°C</p>
+<p>Видимість: @Model.Visibility м</p>
